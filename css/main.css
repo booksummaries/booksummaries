@@ -1,0 +1,367 @@
+:root {
+  --LightYellow: rgb(245, 243, 238);
+  --DarkBlue: rgb(90, 97, 117);
+  --Orange: rgb(244, 125, 49);
+  --Blue: rgb(100, 164, 217);
+  --Pink: rgb(255, 143, 152);
+  --Turquoise: rgb(123, 205, 200);
+  --Navy: rgb(33, 39, 69);
+  --Yellow: rgb(255, 222, 166);
+}
+
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: var(--Navy);
+  background-color: var(--LightYellow);
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  overflow: hidden;
+}
+
+a {
+  color: #8085C1;
+  text-decoration: none;
+  border: none;
+}
+
+a img {
+  outline: none;
+}
+
+a:hover {
+  color: #555;
+  border: none;
+}
+
+.separator {
+  color: #555;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+#logo {
+  max-width: 128px;
+}
+
+.posts a {
+  color: #444;
+}
+
+.posts a:hover {
+  color: #777;
+}
+
+.posts-list {
+  list-style-type: none;
+}
+
+.posts-list li {
+  text-align: center;
+  line-height: 1.75em;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  height: 100%;
+  width: 100%;
+  line-height: 1.25em;
+}
+
+.title {
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+}
+
+.tagline {
+  width: 100%;
+  color: #787878;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0.5em;
+  display: block;
+}
+
+.posts {
+  border-top: 1px solid #e7e7e7;
+  margin-top: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.25em;
+}
+
+.footer {
+  font-size: 0.95em;
+  border-top: 1px solid #e7e7e7;
+  padding-top: 1.25em;
+  padding-bottom: 1.5em;
+  overflow: hidden;
+  float: center;
+  text-align: center;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+#date {
+  font-size: 16px;
+  padding-top: 0.25em;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #787878;
+}
+
+#cover-photo-container,
+#info-container {
+  display: block;
+}
+
+#info-container {
+  margin-top: 3em;
+}
+
+#title {
+  color: var(--Navy);
+  margin-bottom: 0.35em;
+  margin-top: 0;
+  font-size: 3em;
+  line-height: 40px;
+  /*text-transform: uppercase;*/
+}
+
+.post {
+  line-height: 24px;
+  max-width: 750px;
+  clear: both;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin: 1.75em 0 0.50em 0;
+}
+
+.post h2 {
+  margin-top: 1.25em;
+  /*margin-left: -0.5em;*/
+  margin-bottom: 1.25em;
+}
+
+.post a,
+#about a {
+  border-bottom: 1px solid #8085C1;
+}
+
+.post a:hover {
+  border: none;
+}
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post p {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 17px;
+  margin-bottom: 1.45em;
+  text-align: left;
+}
+
+.post ul, .post ol {
+  margin-left: 2.35em;
+  margin-bottom: 1.25em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+/*****************************************************************************/
+/*
+/* Life 101 posts
+/*
+/*****************************************************************************/
+
+#in-a-nutshell {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 1.4em;
+  background: rgb(80, 144, 197);
+  padding: 0.5em;
+  margin-bottom: 0;
+  color: rgb(255, 222, 166);
+}
+
+.nutshell {
+  background: var(--Blue);
+  padding: 0.5em;
+  color: var(--Navy);
+}
+
+.post ol {
+  margin-left: 0;
+
+}
+
+.post ul {
+  background: rgb(100, 164, 217);
+  list-style-position: inside;
+  padding: 0.5em 0.5em 0.5em 1em;
+  margin: 0;
+}
+
+.post ol li {
+  font-weight: bold;
+  list-style-position: inside;
+  background: rgb(80, 144, 197);
+  margin: 1em 0 0 0;
+}
+
+.post ol li ul {
+  background: rgb(100, 164, 217);
+  list-style-position: inside;
+  margin: 0;
+}
+.post ol li ul li {
+  font-weight: normal;
+  background: rgb(100, 164, 217);
+  margin: 0;
+}
+
+.post ul li {
+  /*background: rgb(80, 144, 197);*/
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+/*****************************************************************************/
+/*
+/* Sidebar and Content
+/*
+/*****************************************************************************/
+
+.sidebar,
+.content {
+  vertical-align: top;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  background: rgb(90, 97, 117);
+  float: left;
+  width: 11em;
+  padding-left: 2.125em;
+  padding-right: 2.125em;
+  /*border-right: 1px solid #e7e7e7;*/
+}
+
+.content {
+  padding-left: 2.125em;
+}
+
+.header {
+  text-align: center;
+  padding-top: 2.125em;
+  font-size: 1.1em;
+}
+
+.post-link {
+  margin-bottom: 0.75em;
+}
+
+.post-title {
+  font-weight: 600;
+  font-size: 1.25em;
+  /*text-transform: uppercase;*/
+}
+
+.post-date {
+  color: #8a8a8a;
+  font-family: Monaco, "Courier New", monospace;
+  font-weight: 600;
+  font-size: 0.65em;
+  display: block;
+  text-transform: uppercase;
+}
+
+#sidebar-button {
+  height: intrinsic;
+  cursor: pointer;
+  display: none;
+  padding: 15px 5px 0px 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+#sidebar-button:active,
+#sidebar-button:hover {
+  opacity: 0.7;
+}
+
+/*****************************************************************************/
+/*
+/* Colophon
+/*
+/*****************************************************************************/
+
+.colophon {
+  margin-top: 1.5em;
+  margin-bottom: 1.45em;
+  border-top: 1px dotted #e7e7e7;
+}
+
+.colophon p {
+  margin-top: 1.25em;
+  font-size: 0.95em;
+  color: #777;
+}
