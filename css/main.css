@@ -39,9 +39,8 @@ body {
 }
 
 a {
-  color: var(--Blue);
+  color: var(--Navy);
   text-decoration: none;
-  border: none;
 }
 
 a img {
@@ -50,7 +49,6 @@ a img {
 
 a:hover {
   color: #555;
-  border: none;
 }
 
 .separator {
@@ -92,7 +90,6 @@ a:hover {
 .site {
   height: 100%;
   width: 100%;
-  line-height: 1.25em;
 }
 
 .title {
@@ -169,7 +166,7 @@ a:hover {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
-  margin: 1.75em 0 0.50em 0;
+  margin: 2em 0 0.75em 0;
 }
 
 .post h2 {
@@ -313,14 +310,17 @@ ul.nutshell {
 }
 
 .header {
+  font-family: 'Montserrat';
+  font-weight: 400;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.6em;
   padding-top: 1.25em;
   padding-bottom: 0.5em;
 }
 
 .post-link {
-  margin-bottom: 0.75em;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
 }
 
 .post-title {
