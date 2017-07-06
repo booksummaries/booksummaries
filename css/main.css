@@ -77,7 +77,7 @@ a:hover {
 }
 
 .posts-list li {
-  text-align: center;
+  text-align: left;
   line-height: 1.75em;
 }
 
@@ -110,8 +110,8 @@ a:hover {
 .posts {
   border-top: 1px solid #e7e7e7;
   margin-top: 1em;
-  padding-top: 1.5em;
-  padding-bottom: 1.25em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 
 .footer {
@@ -299,9 +299,9 @@ ul.nutshell {
 .sidebar {
   background: #F6F6F6;
   float: left;
-  width: 11em;
-  padding-left: 2.125em;
-  padding-right: 2.125em;
+  width: 14em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
   /*border-right: 1px solid #e7e7e7;*/
 }
 
@@ -319,13 +319,13 @@ ul.nutshell {
 }
 
 .post-link {
-  margin-bottom: 1.25em;
-  margin-top: 1.25em;
+  margin-bottom: 0.75em;
+  margin-top: 0.75em;
 }
 
 .post-title {
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 1em;
   /*text-transform: uppercase;*/
 }
 
