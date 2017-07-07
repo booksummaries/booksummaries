@@ -4,7 +4,8 @@ title: Warren Buffett's Investment Checklist
 author: Warren Buffett
 cover: null.png
 date:   2017-01-01 12:00:00
-categories: finance
+categories: posts
+topic: finance
 ---
 
 1.  Is the business simple and understandable?

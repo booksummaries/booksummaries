@@ -7,9 +7,11 @@
   --Turquoise: rgb(123, 205, 200);
   --Navy: rgb(33, 39, 69);
   --Yellow: rgb(255, 222, 166);
+  --DarkGreen: rgb(120, 200, 120);
   --Green: rgb(180, 229, 148);
   --LightGreen: rgb(236, 251, 228);
   --Grey: rgb(245, 245, 245);
+  --Red: rgb(220, 60, 130);
 }
 
 /*****************************************************************************/
@@ -158,9 +160,10 @@ a:hover {
 }
 
 .post {
-  line-height: 24px;
+  line-height: 1.5em;
   max-width: 750px;
   clear: both;
+  font-size: 1.2em;
 }
 
 h1 {
@@ -193,7 +196,7 @@ h1 {
 
 .post p {
   font-family: 'Source Sans Pro', Arial, sans-serif;
-  font-size: 17px;
+  font-size: 1em;
   margin-bottom: 1.45em;
   text-align: left;
 }
@@ -279,6 +282,24 @@ ul.nutshell {
   background: var(--Grey);
   padding: 1em;
   color: var(--Navy);
+}
+p.nutshell {
+  background: var(--Grey);
+  padding: 1em;
+  color: var(--Navy);
+}
+
+a.business {
+  color: var(--Orange);
+}
+a.people {
+  color: var(--Red);
+}
+a.mindset {
+  color: var(--Blue);
+}
+a.finance {
+  color: var(--DarkGreen);
 }
 
 /*****************************************************************************/

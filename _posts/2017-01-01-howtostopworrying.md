@@ -5,6 +5,7 @@ author: Dale Carnegie
 cover: null.png
 date:   2017-01-01 12:00:00
 categories: posts
+topic: mindset
 ---
 
 # In a nutshell
