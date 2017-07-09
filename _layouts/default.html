@@ -28,16 +28,29 @@
           <a href="/">Book Summaries</a>
         </div>
         <div class="posts">
+          <!-- OLD POST FORMAT
           <ul class="posts-list">
             {% for post in site.posts %}
               <li class="post-link">
-                <a class="post-title {{ post.topic }}" href="{{ post.url }}">
+                <a class="post-title {{ post.topic }}" href="{{ post.url }}">-->
                   <!--<span class="post-date">{{ post.date | date_to_string }}</span>-->
-                  {{ post.title }}
+                  <!--{{ post.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>-->
+
+          <ul class="posts-list">
+            {% assign items = site.books | sort: 'topic' %}
+            {% for item in items %}
+              <li class="post-link">
+                <a class="post-title {{ item.topic }}" href="{{ item.url }}">
+                  {{ item.title }}
                 </a>
               </li>
             {% endfor %}
           </ul>
+
         </div>
         <div class="footer">
           <span id="footer-links">
