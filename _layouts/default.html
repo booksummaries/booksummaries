@@ -41,7 +41,7 @@
           </ul>-->
 
           <ul class="posts-list">
-            {% assign items = site.books | sort: 'topic' %}
+            {% assign items = site.books | sort: 'topic' | reverse %}
             {% for item in items %}
               <li class="post-link">
                 <a class="post-title {{ item.topic }}" href="{{ item.url }}">

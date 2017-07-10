@@ -290,7 +290,6 @@ ul.nutshell {
 }
 p.nutshell {
   background: var(--Grey);
-  font-size: 0.9em;
   padding: 1em;
   color: var(--Navy);
 }
