@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The 7 Habits of Highly Effective People
-author: N/A
+author: Stephen R. Covey
 cover: null.png
 date:   2017-07-19 12:00:00
 topic: mindset
