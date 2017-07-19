@@ -256,28 +256,25 @@ h1 {
 .post ol li {
   font-weight: 600;
   list-style-position: inside;
-  background: var(--LightGreen);
+  background: var(--Green);
   margin: 1em 0 0 0;
   line-height: 1.5em;
-  font-size: 1.125rem;
-  padding: 0.5em;
+  font-size: 1.0em;
 }
 
 .post ol li ul {
   background: var(--LightGreen);
   list-style-position: outside;
   margin: 0;
-  padding-left: 0.35em;
   color: #000;
 }
 .post ol li ul li {
   font-weight: normal;
   list-style-position: outside;
   background: var(--LightGreen);
-  padding: 0.25em;
-  margin: 0 0 0em 1.25em;
+  margin: 0 0 0.5em 1.25em;
   line-height: 1.5em;
-  font-size: 0.95rem;
+  font-size: 0.85em;
 }
 
 .post ul li {
@@ -298,10 +295,6 @@ ul.nutshell {
   background: var(--Grey);
   padding: 1em;
   color: var(--Navy);
-}
-ul.nutshell li {
-  padding-bottom: 0.25em;
-  font-size: 0.95rem;
 }
 p.nutshell {
   background: var(--Grey);

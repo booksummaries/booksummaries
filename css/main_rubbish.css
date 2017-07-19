@@ -242,47 +242,24 @@ h1 {
 /*****************************************************************************/
 
 .post ol {
-  margin-left: 0;
-
-}
-
-.post ul {
-  background: var(--LightGreen);
-  list-style-position: inside;
-  padding: 0.5em 0.5em 0.5em 1em;
-  margin: 0;
+  margin-left: 2em;
 }
 
 .post ol li {
-  font-weight: 600;
-  list-style-position: inside;
+  margin: 2em 0em;
+  font-weight: bold;
+  font-size: 1.25em;
   background: var(--LightGreen);
-  margin: 1em 0 0 0;
-  line-height: 1.5em;
-  font-size: 1.125rem;
-  padding: 0.5em;
 }
 
 .post ol li ul {
-  background: var(--LightGreen);
-  list-style-position: outside;
   margin: 0;
-  padding-left: 0.35em;
-  color: #000;
 }
 .post ol li ul li {
   font-weight: normal;
-  list-style-position: outside;
-  background: var(--LightGreen);
-  padding: 0.25em;
-  margin: 0 0 0em 1.25em;
-  line-height: 1.5em;
-  font-size: 0.95rem;
-}
-
-.post ul li {
-  /*background: rgb(80, 144, 197);*/
+  margin: 0.5em 0em;
   list-style-type: disc;
+  font-size: 1rem;
 }
 
 #in-a-nutshell {
@@ -298,10 +275,6 @@ ul.nutshell {
   background: var(--Grey);
   padding: 1em;
   color: var(--Navy);
-}
-ul.nutshell li {
-  padding-bottom: 0.25em;
-  font-size: 0.95rem;
 }
 p.nutshell {
   background: var(--Grey);
