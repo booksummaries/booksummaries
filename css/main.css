@@ -360,10 +360,11 @@ table {
 }
 
 .sidebar {
+  width: 20%;
   background: #F6F6F6;
   float: left;
-  width: 20em;
-  padding-left: 1.25em;
+  max-width: 20em;
+  padding-left: 0.75em;
   padding-right: 1.25em;
   /*border-right: 1px solid #e7e7e7;*/
 }

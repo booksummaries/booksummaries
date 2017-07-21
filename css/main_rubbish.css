@@ -320,8 +320,8 @@ a.finance {
 .sidebar {
   background: #F6F6F6;
   float: left;
-  width: 14em;
-  padding-left: 1.25em;
+  max-width: 14em;
+  padding-left: 0.5em;
   padding-right: 1.25em;
   /*border-right: 1px solid #e7e7e7;*/
 }
