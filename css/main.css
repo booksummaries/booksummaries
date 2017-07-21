@@ -333,6 +333,9 @@ a.health {
   background-position: center;
   background-size: 24em;
 }
+table {
+  background: var(--Grey);
+}
 /*****************************************************************************/
 /*
 /* Sidebar and Content
@@ -365,7 +368,7 @@ a.health {
   font-family: 'Montserrat';
   font-weight: 400;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.4em;
   padding-top: 1.25em;
   padding-bottom: 0.5em;
 }

@@ -16,10 +16,12 @@ topic: finance
 3.	Set an asset allocation, and diversify
 -	Research by finance professors has shown that the majority of returns come from asset allocation, rather than picking the right security or the right time to invest.
 -	As a general rule of thumb for deciding stock-bond allocation is that **your bond allocation should be equal to your age**, or a bit higher.
+-	Avoid buying and selling individual securities. The person on the other side of the table knows more than you.
 
 4.	Keep fees low
 -	Paying lower fees and commission is a good way to improve your returns, guaranteed
--	Keeping investments simple keeps fees low. Consider indexing and ETFs. For example, Vanguard VFIAX has 0.05% fees.
+-	Keeping investments simple keeps fees low. Consider indexing and ETFs. 
+-	Avoid actively managed funds, which have higher fees. For example, Vanguard VFIAX has 0.05% fees.
 
 5.	Get a fiduciary
 -	Instead of a financial advisor who profits from selling you certain investment products
