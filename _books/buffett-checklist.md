@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Warren Buffett's Investment Checklist
+title: Buffett's Investment Checklist
 author: Warren Buffett
 cover: null.png
 date:   2017-01-01 12:00:00

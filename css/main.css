@@ -13,6 +13,9 @@
   --Grey: rgb(245, 245, 245);
   --Red: rgb(220, 60, 130);
 }
+::-webkit-scrollbar { 
+    display: none; 
+}
 
 /*****************************************************************************/
 /*
@@ -324,7 +327,12 @@ a.finance {
 a.health {
   color: purple;
 }
-
+.true {
+  background-image: url('/images/star.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 0.85em;
+}
 .homebg {
   width: 100%;
   height: 100%;
@@ -354,7 +362,7 @@ table {
 .sidebar {
   background: #F6F6F6;
   float: left;
-  width: 14em;
+  width: 20em;
   padding-left: 1.25em;
   padding-right: 1.25em;
   /*border-right: 1px solid #e7e7e7;*/
@@ -376,11 +384,12 @@ table {
 .post-link {
   margin-bottom: 0.75em;
   margin-top: 0.75em;
+  padding-left: 1.5em;
 }
 
 .post-title {
   font-weight: 600;
-  font-size: 1em;
+  font-size: 0.95em;
   /*text-transform: uppercase;*/
 }
 
