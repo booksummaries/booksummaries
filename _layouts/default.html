@@ -36,7 +36,7 @@
             {% for item in items %}
               <li class="post-link {{ item.starred }}">
                 <a class="post-title {{ item.topic }}" href="{{ item.url }}">
-                  {{ item.title }}
+                  {{ item.title }} <!--- <i>{{item.author}}</i>-->
                 </a>
               </li>
             {% endfor %}

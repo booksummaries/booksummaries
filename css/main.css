@@ -13,6 +13,7 @@
   --Grey: rgb(245, 245, 245);
   --Red: rgb(220, 60, 130);
 }
+
 ::-webkit-scrollbar { 
     display: none; 
 }
@@ -40,7 +41,7 @@ body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-weight: 400;
   font-size: 0.85em;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 a {
@@ -83,7 +84,6 @@ a:hover {
 
 .posts-list li {
   text-align: left;
-  line-height: 1.75em;
 }
 
 /*****************************************************************************/
@@ -147,6 +147,7 @@ a:hover {
 #cover-photo-container,
 #info-container {
   display: block;
+  padding-bottom: 2em;
 }
 
 #info-container {
@@ -383,14 +384,13 @@ table {
 }
 
 .post-link {
-  margin-bottom: 0.75em;
-  margin-top: 0.75em;
-  padding-left: 1.5em;
+  padding: 0.75em 0 0.75em 1.5em;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .post-title {
   font-weight: 600;
-  font-size: 0.95em;
+  font-size: 1.1em;
   /*text-transform: uppercase;*/
 }
 
@@ -433,4 +433,37 @@ table {
   margin-top: 1.25em;
   font-size: 0.95em;
   color: #777;
+}
+
+/*****************************************************************************/
+/*
+/* Index
+/*
+/*****************************************************************************/
+.card {
+  font-size: 0.85em;
+  width: 12em;
+  height: 12em;
+  float: left;
+  padding: 0.75em;
+  margin: 1.5em 0em 0em 1.5em;
+}
+a.ind {
+  color: #FFF;
+}
+
+.card.business {
+  background: var(--Orange);
+}
+.card.people {
+  background: var(--Red);
+}
+.card.mindset {
+  background: var(--Blue);
+}
+.card.finance {
+  background: var(--DarkGreen);
+}
+.card.health {
+  background: purple;
 }
