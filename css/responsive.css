@@ -7,10 +7,6 @@
     /*padding-top: 3.45em;*/
   }
 
-  .posts {
-    font-size: 0.9em;
-  }
-
   .footer {
     font-size: 0.85em;
   }
@@ -30,14 +26,11 @@
     /*padding-top: 3.85em;*/
   }
 
-  .posts {
-    font-size: 0.85em;
-  }
 
   .sidebar {
     transition: 1s;
-    padding-left: 1.25em;
-    max-width: 17em;
+    /*padding-left: 1.25em;*/
+    max-width: 20em;
     min-width: 13em;
   }
 
@@ -53,7 +46,7 @@
 /**
  * iPhone width
  **/
-@media (max-width:640px) {
+@media (max-width:720px) {
   #logo {
     max-width: 75px;
   }
@@ -70,18 +63,19 @@
     transition: 1s;
     margin-left: -100%;
     z-index: 3;
-    width: 35%;
-    padding-left: 1.5em;
+    width: 30%;
+    /*padding-left: 1.5em;*/
   }
 
   .content {
     z-index: 1;
     padding-right: 2em;
+    padding-left: 1.5em;
   }
 
   #sidebar-button {
     display: block;
-    z-index: 2;
+    z-index: 0;
   }
 }
 

@@ -16,7 +16,7 @@ We think we are logical when we make decisions, but in reality we are all biased
 1. The truth about relativity
 -	Given several choices, we often don't consider the absolute value, but make choices based on relative characteristics. 
 -	For example, given the choices of house below people are most likely to pick the second option, as it is relatively comparable to the third. 
--	1. Contemporary   2. Colonial  3. Colonial with damaged roof for lower price
+-	Contemporary ... Colonial ... Colonial with damaged roof for lower price
 
 2. The high price of ownership
 -	We also have a fear of loss, and overvalue what we have. 
