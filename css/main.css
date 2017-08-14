@@ -113,19 +113,14 @@ a:hover {
 }
 
 .posts {
-  border-top: 1px solid #e7e7e7;
-  margin-top: 1em;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
 }
 
 .footer {
-  font-size: 0.95em;
-  border-top: 1px solid #e7e7e7;
-  padding-top: 1.25em;
-  padding-bottom: 1.5em;
+  padding: 1.25em 0em 1.5em 1.5em;
   overflow: hidden;
-  float: center;
+  float: left;
   text-align: center;
 }
 
@@ -289,6 +284,12 @@ h1 {
   list-style-type: disc;
 }
 
+ol li ul li.star {
+  list-style-image: url('/images/star_black.svg');
+  color: var(--Blue);
+  font-weight: 600;
+}
+
 #in-a-nutshell {
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-size: 1.2em;
@@ -298,16 +299,21 @@ h1 {
   color: #FFF;
 }
 
-ul.nutshell {
+ul.nutshell, ol.nutshell {
   background: var(--Grey);
   padding: 1em;
   color: var(--Navy);
 }
-ul.nutshell li {
-  padding-bottom: 0.25em;
-  font-size: 0.95rem;
+ol.nutshell li {
+  font-size: 1rem;
+  background: var(--Grey);
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
+
 p.nutshell {
+  line-height: 1.25em;
   background: var(--Grey);
   padding: 1em;
   color: var(--Navy);
@@ -362,14 +368,20 @@ table {
 
 .sidebar {
   width: 25%;
-  background: #F6F6F6;
+  background: #fcfcfc;
   float: left;
   max-width: 25em;
   font-size: 0.75rem;
   /*padding-left: 0.75em;
   padding-right: 1.25em;*/
-  border-right: 1px solid #e7e7e7;
+  border-right: 1px solid #f2f2f2;
+  transition: 0.25s;
+  opacity: 1;
 }
+.sidebar:hover {
+  opacity: 1;
+}
+
 
 .content {
   padding-left: 3.5em;
@@ -378,18 +390,17 @@ table {
 
 .header {
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 1.7em;
-  padding-top: 1.25em;
-  padding-bottom: 0.5em;
+  font-size: 2em;
+  padding: 1.75rem 0 0.5rem 1rem;
+  font-weight: 700;
 }
 .header a {
-  color: #888;
+  color: var(--Navy);
 }
 
 .post-link {
-  padding: 0.75em 1.5em 0.75em 1.5em;
-  border-bottom: 1px solid #e7e7e7;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  /*border-top: 1px solid #eee;*/
 }
 
 .post-title {
@@ -412,7 +423,7 @@ table {
   cursor: pointer;
   display: none;
   padding: 15px 15px 12px 15px;
-  border-bottom: 1px solid rgb(246,246,246);
+  /*border-bottom: 1px solid rgb(246,246,246);*/
   z-index: 0;
 }
 

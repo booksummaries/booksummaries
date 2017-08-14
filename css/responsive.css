@@ -65,6 +65,7 @@
     z-index: 3;
     width: 30%;
     /*padding-left: 1.5em;*/
+    opacity: 1;
   }
 
   .content {

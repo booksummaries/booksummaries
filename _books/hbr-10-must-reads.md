@@ -19,9 +19,6 @@ occurs, giving the advantage to no one.
 using what is distinct about a company; either through performing
 *different* activities from rivals, or *similar* activities in different
 ways.
-NOTE: this seems a bit like a tautology? maybe the author means the
-differences don’t affect operational effectiveness but influence other
-factors (eg: brand value)
 
 1.  Strategy is the creation of a unique and valuable position. Achieved
     through:
@@ -46,17 +43,17 @@ factors (eg: brand value)
 ### In a nutshell
 
 {:.nutshell}
-1\. established rivals – compete intensely on price
-2\. aspiring entrants – can disrupt by targeting unserved areas of the
+- **Established rivals** – compete intensely on price
+- **Aspiring entrants** – can disrupt by targeting unserved areas of the
 market
-3\. savvy customers – can force down prices by playing you and your
+- **Savvy customers** – can force prices down by playing you and your
 competitors against each other
-4\. powerful suppliers – may constrain you if they can charge higher
+- **Powerful suppliers** – may constrain you if they can charge higher
 profits with impunity
-5\. substitute offerings – can lure customers away
+- **Substitute offerings** – can lure customers away
 
 1.  Position your company where the forces are weakest
--   Example:
+-   ...
 
 1.  Exploit changes in these forces
 -   Example: the advent of the internet created an untapped market for
@@ -75,3 +72,81 @@ profits with impunity
 -   **Limit the threat of substitutes:** by making your product more
     accessible (soft drink manufacturers did this by introducing vending
     machines which made soft drinks more available than other beverages)
+
+
+
+# Building Your Company’s Vision (James Collins)
+
+### In a nutshell
+
+{:.nutshell}
+Enduring companies have clear plans for how they will advance into an
+uncertain future. However, they are also equally clear about how they
+will remain steadfast in the values and purposes they will always stand
+for. These two principles can be split into a **core ideology** and
+**envisioned future**.
+
+1.  Core ideology
+-   **Core values** are the guiding principles by which a company
+    navigates. They require no justification.
+-   **Core purpose** is the organisation’s fundamental reason for being;
+    what the consumer gains from their products (eg: Disney make people
+    happy)
+
+2.  Envisioned future
+-   **Big, Hairy, Audacious Goals (BHAGs)** are ambitious plans that
+    motivate the company, typically taking a few decades to complete.
+    These may be quantitative (be valued £Xm), transformative (change in
+    market), competitive (outsell competitor X).
+-   **Vivid descriptions** paint a picture of a world in which these
+    goals are achieved
+
+
+
+# Blue Ocean Strategy (W. Kim)
+
+### In a nutshell
+
+{:.nutshell}
+The best way to achieve profitable growth is to stop competing in overcrowded industries, so called *red oceans*. Conversely, *blue oceans* are uncontested market spaces where you invent and capture new demand.
+
+1.  It’s not about technology innovation
+-   Blue ocean creators usually take existing technology and link it to what buyers value
+
+2.  You don’t need to venture into distant waters to create blue oceans
+-   ...
+
+3.  ​Never use the competition as a benchmark
+-   Instead make the competition irrelevant by creating a leap in value for both yourself and the customer
+
+4.  Reduce your costs while offering customers more value
+-   By offering something unique you can increase demand, which typically lowers cost due to economies of scale.
+
+
+
+# The Secrets to Successful Strategy Execution
+
+### In a nutshell
+
+{:.nutshell}
+There are two main levers that affect strategy execution: **clarifying decision rights** and **ensuring information flows where it is needed**.
+
+1.  Clarifying decision rights
+-   Ensure that everyone knows which decisions and actions they are responsible for. Make people accountable for their end result.
+-   Encourage managers to delegate operational decisions. This frees up time and prevents stalling due to lack of authorisation.
+
+2.  Information flow
+-   Increase open, honest communication between management and staff. This can be achieved through more informal meetings, such as brown-bag lunches.
+-   Improve information flow between different teams, perhaps by increasing cross-functional work and more informal engagements.
+-   {:.star} Help line employees understand how their day-to-day choices affect your company's bottom line.
+
+Some good generic tactics that can be applied:
+-   Make upper management just *support* lower level decision making
+-   Focus upper management instead on important strategic questions
+-   Clarify and streamline decision making at each operating level
+-   Consolidate similar functions into one organisational unit
+-   Establish individual performance measures
+-   Improve field-to-management information flow
+-   Define and distribute daily operating metrics to employees
+-   Create cross-functional teams
+-   Expand nonmonetary rewards to recognise exceptional performers

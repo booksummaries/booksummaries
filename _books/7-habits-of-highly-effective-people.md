@@ -10,7 +10,7 @@ topic: mindset
 # In a nutshell
 
 {:.nutshell}
-To be effective, you must come from a place of authenticity, sticking to your values and building from each of the seven habits. 
+To be effective, you must come from a place of authenticity, sticking to your values and building from each of the seven habits. Know what your goals are, and how they align with your values. Then **go out there and do it**, prioritising the important things.
 
 1.	Be Proactive
 -	*Adopt a persepective of responsibility for your actions, reactions, and results*
