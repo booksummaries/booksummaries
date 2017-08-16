@@ -286,7 +286,6 @@ h1 {
 
 ol li ul li.star {
   list-style-image: url('/images/star_black.svg');
-  color: var(--Blue);
   font-weight: 600;
 }
 
@@ -407,6 +406,9 @@ table {
   font-weight: 600;
   font-size: 1.1em;
   /*text-transform: uppercase;*/
+}
+a.post-title:hover {
+  color: var(--Navy);
 }
 
 .post-date {

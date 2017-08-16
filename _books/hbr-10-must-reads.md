@@ -150,3 +150,26 @@ Some good generic tactics that can be applied:
 -   Define and distribute daily operating metrics to employees
 -   Create cross-functional teams
 -   Expand nonmonetary rewards to recognise exceptional performers
+
+
+# Using the Balanced Scorecard as a Strategic Management System
+
+### In a nutshell
+
+{:.nutshell}
+We can use the Balanced Scorecard to avoid budgets ignoring important non-financial factors, such as customer service, internal processes, and employee growth.
+
+1.  Translating the vision
+-   The progress of each factor in the scoreboard should be measurable, so that managers agreed on what constitutes good performance in that factor.
+
+2.  Communicating and linking
+-   By using scorecards at each level of the organisation, each employee can see how their work affects results.
+-   This can be tied to individual targets and compensation.
+
+3.  Business planning
+-   The strategy and budgeting teams should work together, to make sure budgets adequately support strategic goals.
+
+4.  Feedback and learning
+-   It's important to reflect on progress; what's working and what isn't. Having a mechanism for feedback helps the company continuously improve.
+
+## More notes to come on this one!!
