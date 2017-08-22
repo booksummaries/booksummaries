@@ -30,7 +30,7 @@ management
 -   Being able to control disruptive impulses
 -   Thinking before acting
 -   More open to change
--   
+   
 1.  Motivation
 -   Being goal-oriented, optimistic and committed
 1.  Empathy

@@ -18,8 +18,3 @@ topic: people
 -	**Self management is the ability to use your awareness to stay flexible and direct your behaviour positively**. This involves your ability to put immediate needs aside for long-term goals.
 -	**Social Awareness is the ability to recognise emotions in other people and understand what is *really* happening in a situation**. Rather than thinking about what you're going to say next, instead keenly observe and aim to understand human behaviour.
 -	**Relationship management involves using your awareness of your emotions to successfully manage your interactions**
-
-| Personal          | | | | | Social                  |
-|:------------------|-|-|-|-|:------------------------|
-| Self Awareness    | | | | | Social Awareness        |
-| Self Management   | | | | | Relationship Management |

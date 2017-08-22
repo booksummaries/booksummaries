@@ -161,12 +161,12 @@ a:hover {
 .post {
   max-width: 750px;
   clear: both;
-  font-size: 1.2em;
+  font-size: 1.25em;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
+  font-size: 1.75em;
   margin: 2em 0 0.75em 0;
 }
 
@@ -206,6 +206,7 @@ h1 {
   font-size: 1em;
   margin-bottom: 1.45em;
   text-align: left;
+  line-height: 1.25em;
 }
 
 .post ul, .post ol {

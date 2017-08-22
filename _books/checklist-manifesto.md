@@ -31,5 +31,4 @@ topic: business
 # The solution to ineptitude (human error) is checklists
 
 1.  That’s basically it
--   No need to write a whole book about it xD
 -   This book is pretty awful
